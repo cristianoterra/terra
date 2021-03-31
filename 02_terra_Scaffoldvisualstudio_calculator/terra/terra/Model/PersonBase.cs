@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace terra.Model
+﻿namespace terra.Model
 {
-    public class Person
+    public class PersonBase
     {
         public long Id { get; set; }
         public string FirstName { get; set; }

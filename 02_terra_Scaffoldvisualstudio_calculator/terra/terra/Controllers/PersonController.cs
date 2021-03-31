@@ -9,20 +9,20 @@ namespace terra.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class personController : ControllerBase
+    public class PersonController : ControllerBase
     {
 
-        private readonly ILogger<personController> _logger;
+        private readonly ILogger<PersonController> _logger;
         private bool isnumber;
 
-        public personController(ILogger<personController> logger)
+        public PersonController(ILogger<PersonController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet("subtraction/{firstnumber}/{secondnumber}")]
-        public IActionResult subtraction(string firstnumber, string secondnumber)
-        { 
+        [HttpGet("sum/{firstnumber}/{secondnumber}")]
+        public IActionResult sum(string firstnumber, string secondnumber)
+        {
             return BadRequest("Invalid input");
         }
     }
