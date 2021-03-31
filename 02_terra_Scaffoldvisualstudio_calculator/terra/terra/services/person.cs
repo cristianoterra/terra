@@ -1,0 +1,6 @@
+﻿namespace terra
+{
+    class person
+    {
+    }
+}

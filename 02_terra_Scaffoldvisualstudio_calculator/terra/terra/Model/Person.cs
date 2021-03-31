@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace terra.model
 {
-    public class person
+    public class Person
     {
-        public long id { get; set; }
-        public string firstname { get; set; }
-        public string lastname { get; set; }
-        public string address { get; set; }
-        public string gender { get; set; }
+        public long Id { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public string Address { get; set; }
+        public string Gender { get; set; }
 
     }
 }
